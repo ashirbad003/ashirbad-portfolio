@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- SEO Meta Tags -->
+  <title>Ashirbad Pattnaik | Full Stack Developer & AI/ML Enthusiast</title>
+  <meta name="title" content="Ashirbad Pattnaik | Full Stack Developer & AI/ML Enthusiast">
+  <meta name="description" content="Official personal portfolio of Ashirbad Pattnaik - B.Tech in Computer Science and Technology (CST) Student, Full Stack Developer, and AI/ML Enthusiast based in Berhampur, Odisha, India.">
+  <meta name="keywords" content="Ashirbad Pattnaik, Full Stack Developer, AI ML Enthusiast, Software Engineer, NIST University, Python, React, FastAPI, Machine Learning">
+  <meta name="author" content="Ashirbad Pattnaik">
+  <meta name="theme-color" content="#060913">
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ashirbad Pattnaik | Full Stack Developer & AI/ML Enthusiast">
+  <meta property="og:description" content="Explore projects, technical skills, experience, and certifications of Ashirbad Pattnaik.">
+  <meta property="og:image" content="assets/profile.png">
+
+  <!-- Google Fonts: Space Grotesk, Outfit, and JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons via CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Top Scroll Progress Bar -->
+  <div id="scroll-progress" class="scroll-progress-bar" aria-hidden="true"></div>
+
+  <!-- Mouse Cursor Follower Spotlight -->
+  <div id="cursor-glow" class="cursor-glow-spotlight" aria-hidden="true"></div>
+
+  <!-- Interactive Cyber Canvas Background -->
+  <canvas id="bg-canvas" class="bg-canvas" aria-hidden="true"></canvas>
+
+  <!-- Animated Ambient Gradient Glows -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       1. NAVIGATION BAR
+       ========================================================================== -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Ashirbad Pattnaik Homepage">
+        <span class="brand-bracket">&lt;</span>
+        <span class="brand-initials">AP</span>
+        <span class="brand-dot">.</span>
+        <span class="brand-bracket">/&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active"><span class="nav-num">01.</span>Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link"><span class="nav-num">02.</span>About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link"><span class="nav-num">03.</span>Skills</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link"><span class="nav-num">04.</span>Experience</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link"><span class="nav-num">05.</span>Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link"><span class="nav-num">06.</span>Education</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link"><span class="nav-num">07.</span>Certifications</a></li>
+          <li class="nav-item"><a href="#resume" class="nav-link"><span class="nav-num">08.</span>Resume</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link"><span class="nav-num">09.</span>Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Action CTAs & Mobile Hamburger -->
+      <div class="nav-actions">
+        <a href="resume.pdf" class="btn btn-sm btn-nav-resume" target="_blank" download="Ashirbad_Pattnaik_Resume.pdf" title="Download Resume">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span>Resume</span>
+        </a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         2. HOME / HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="section-container hero-grid">
+        <!-- Left Hero Content -->
+        <div class="hero-text-content">
+          <div class="hero-status-pill" data-reveal="fade-up">
+            <span class="status-pulse-dot"></span>
+            <span class="status-text">Available for Roles & High-Impact Opportunities</span>
+          </div>
+
+          <p class="hero-greeting" data-reveal="fade-up">Hello, I'm</p>
+
+          <h1 class="hero-name" data-reveal="fade-up">
+            <span class="name-gradient">ASHIRBAD PATTNAIK</span>
+          </h1>
+
+          <!-- Typewriter Dynamic Role -->
+          <div class="hero-typewriter-wrapper" data-reveal="fade-up">
+            <span class="typewriter-prompt">&gt;&nbsp;</span>
+            <span class="typewriter-text" id="typewriter">Full Stack Developer</span>
+            <span class="typewriter-cursor" aria-hidden="true">|</span>
+          </div>
+
+          <!-- Professional Introduction -->
+          <p class="hero-bio" data-reveal="fade-up">
+            Final-year B.Tech in Computer Science and Technology (CST) student at NIST University passionate about building scalable applications, intelligent systems and impactful digital experiences. Bridging robust backend engineering with intuitive interfaces and applied artificial intelligence.
+          </p>
+
+          <!-- Working Action Buttons -->
+          <div class="hero-buttons-group" data-reveal="fade-up">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-layer-group"></i>
+              <span>View My Work</span>
+            </a>
+            <a href="resume.pdf" class="btn btn-secondary" target="_blank" download="Ashirbad_Pattnaik_Resume.pdf">
+              <i class="fa-solid fa-download"></i>
+              <span>Download Resume</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>Contact Me</span>
+            </a>
+          </div>
+
+          <!-- Social Media Icons Section -->
+          <div class="hero-social-strip" data-reveal="fade-up">
+            <span class="social-strip-label">Profiles:</span>
+            <a href="https://github.com/ashirbad003" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub" aria-label="GitHub Profile">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/ashirbad003/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn" aria-label="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://leetcode.com/u/ashirbad003/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LeetCode" aria-label="LeetCode Profile">
+              <i class="fa-solid fa-code"></i>
+            </a>
+            <a href="https://www.instagram.com/ashirbad__003" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Instagram" aria-label="Instagram Profile">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/919692502975" target="_blank" rel="noopener noreferrer" class="social-icon-btn btn-social-wa" title="WhatsApp" aria-label="WhatsApp Message">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Side: 3D Animated Profile Card -->
+        <div class="hero-profile-container" data-reveal="zoom-in">
+          <div class="profile-card-3d" id="profile-card-3d">
+            <!-- Glowing Orbit Rings & Radar Sweep -->
+            <div class="card-radar-ring ring-1"></div>
+            <div class="card-radar-ring ring-2"></div>
+            <div class="card-radar-sweep"></div>
+
+            <!-- Profile Photo Box -->
+            <div class="profile-inner-frame">
+              <div class="frame-corner corner-top-left"></div>
+              <div class="frame-corner corner-top-right"></div>
+              <div class="frame-corner corner-bottom-left"></div>
+              <div class="frame-corner corner-bottom-right"></div>
+
+              <img src="assets/profile.png" alt="Ashirbad Pattnaik - Full Stack Developer & AI/ML Enthusiast" class="profile-avatar-img">
+
+              <div class="profile-card-overlay">
+                <div class="profile-hud-info">
+                  <span class="hud-tag"><i class="fa-solid fa-terminal"></i> ASHIRBAD.DEV</span>
+                  <span class="hud-status-badge">ONLINE</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Tech Badges -->
+            <div class="floating-badge badge-top-right">
+              <i class="fa-solid fa-brain"></i>
+              <span>AI / ML</span>
+            </div>
+            <div class="floating-badge badge-mid-left">
+              <i class="fa-brands fa-react"></i>
+              <span>Full Stack</span>
+            </div>
+            <div class="floating-badge badge-bottom-right">
+              <i class="fa-brands fa-python"></i>
+              <span>Python & APIs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Scroll Down Prompt -->
+      <a href="#about" class="hero-scroll-prompt" aria-label="Scroll to About Section">
+        <span class="scroll-mouse-icon">
+          <span class="scroll-wheel-dot"></span>
+        </span>
+        <span class="scroll-prompt-text">EXPLORE_SYSTEM</span>
+      </a>
+    </section>
+
+    <!-- ==========================================================================
+         3. ABOUT SECTION
+         ========================================================================== -->
+    <section class="section-padding about-section" id="about">
+      <div class="section-container">
+        <div class="section-heading" data-reveal="fade-up">
+          <span class="section-eyebrow"><i class="fa-solid fa-user-gear"></i> WHO_AM_I</span>
+          <h2 class="section-main-title">About <span class="gradient-text">Me</span></h2>
+          <div class="section-separator-line"></div>
+        </div>
+
+        <div class="about-grid-layout">
+          <!-- Story / Bio Card -->
+          <div class="about-narrative-card" data-reveal="fade-up">
+            <div class="glass-highlight-bar"></div>
+            <h3 class="about-subheading">
+              Computer Science and Technology (CST) student building intelligent, scalable applications with rigorous engineering principles.
+            </h3>
+            <p class="about-text">
+              I am Ashirbad Pattnaik, a Computer Science and Technology (CST) student at NIST University, Berhampur (Expected Graduation: 2027). My core enthusiasm lies in architecting full-stack web platforms, engineered backend systems, and applied artificial intelligence solutions that solve real-world problems.
+            </p>
+            <p class="about-text">
+              With hands-on experience spanning enterprise backend systems, data science pipelines, and competitive algorithmic problem solving, I enjoy transforming complex requirements into reliable, maintainable code. My technical focus encompasses modern frontend interfaces, high-performance REST APIs, relational and graph databases, and end-to-end containerized deployments.
+            </p>
+
+            <!-- Personal Coordinate Badges -->
+            <div class="about-info-chips">
+              <div class="info-chip">
+                <span class="chip-key"><i class="fa-solid fa-location-dot"></i> Location:</span>
+                <span class="chip-val">Berhampur, Odisha, India</span>
+              </div>
+              <div class="info-chip">
+                <span class="chip-key"><i class="fa-solid fa-graduation-cap"></i> Education:</span>
+                <span class="chip-val">B.Tech in Computer Science and Technology (CST) • NIST University</span>
+              </div>
+              <div class="info-chip">
+                <span class="chip-key"><i class="fa-solid fa-envelope"></i> Email:</span>
+                <a href="mailto:Pattnaikashirbad4@gmail.com" class="chip-val chip-link">Pattnaikashirbad4@gmail.com</a>
+              </div>
+              <div class="info-chip">
+                <span class="chip-key"><i class="fa-solid fa-phone"></i> Phone:</span>
+                <a href="tel:+919692502975" class="chip-val chip-link">+91 9692502975</a>
+              </div>
+            </div>
+
+            <div class="about-cta-bar">
+              <a href="resume.pdf" class="btn btn-primary btn-sm" target="_blank" download="Ashirbad_Pattnaik_Resume.pdf">
+                <i class="fa-solid fa-file-pdf"></i> Download Full Resume
+              </a>
+              <a href="https://wa.me/919692502975" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Domain Pillar Cards -->
+          <div class="about-pillars-stack" data-reveal="fade-up">
+            <div class="pillar-card">
+              <div class="pillar-card-icon icon-cyan"><i class="fa-solid fa-laptop-code"></i></div>
+              <div class="pillar-card-content">
+                <h4 class="pillar-heading">Full Stack & Backend Development</h4>
+                <p class="pillar-details">
+                  Designing robust web architectures with Node.js, Express, FastAPI, J2EE, React, and Tailwind CSS. Implementing performant REST APIs, microservices, and secure authentication.
+                </p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-card-icon icon-purple"><i class="fa-solid fa-brain"></i></div>
+              <div class="pillar-card-content">
+                <h4 class="pillar-heading">AI, Machine Learning & RAG</h4>
+                <p class="pillar-details">
+                  Engineering explainable clinical AI pipelines, Retrieval-Augmented Generation (RAG) LLM architectures, XGBoost classifiers, and NLP-driven document parsers.
+                </p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-card-icon icon-blue"><i class="fa-solid fa-database"></i></div>
+              <div class="pillar-card-content">
+                <h4 class="pillar-heading">Databases & Data Modeling</h4>
+                <p class="pillar-details">
+                  Structuring relational schemas in SQL, MySQL, SQLite, and exploring graph knowledge representations with Neo4j alongside SQLAlchemy ORM data layers.
+                </p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-card-icon icon-emerald"><i class="fa-solid fa-cloud"></i></div>
+              <div class="pillar-card-content">
+                <h4 class="pillar-heading">Cloud, DevOps & Clean Architecture</h4>
+                <p class="pillar-details">
+                  Containerizing services using Docker & Docker Compose, setting up automated CI/CD with GitHub Actions, and deploying scalable workloads to AWS and GCP environments.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. TECHNICAL SKILLS SECTION
+         ========================================================================== -->
+    <section class="section-padding skills-section" id="skills">
+      <div class="section-container">
+        <div class="section-heading" data-reveal="fade-up">
+          <span class="section-eyebrow"><i class="fa-solid fa-microchip"></i> EXPERTISE_MATRIX</span>
+          <h2 class="section-main-title">Technical <span class="gradient-text">Skills</span></h2>
+          <div class="section-separator-line"></div>
+        </div>
+
+        <!-- Skills Filter Tabs -->
+        <div class="skills-filter-tabs" data-reveal="fade-up">
+          <button class="filter-tab-btn active" data-filter="all">All Domains</button>
+          <button class="filter-tab-btn" data-filter="prog">Programming</button>
+          <button class="filter-tab-btn" data-filter="backend">Backend</button>
+          <button class="filter-tab-btn" data-filter="ai">AI & ML</button>
+          <button class="filter-tab-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-tab-btn" data-filter="db">Databases</button>
+          <button class="filter-tab-btn" data-filter="cloud">Cloud & DevOps</button>
+          <button class="filter-tab-btn" data-filter="tools">Tools</button>
+          <button class="filter-tab-btn" data-filter="core">Core CS</button>
+        </div>
+
+        <!-- Skills Cards Grid -->
+        <div class="skills-catalog-grid" id="skills-catalog">
+          <!-- 1. Programming -->
+          <div class="skill-category-card" data-category="prog" data-reveal="fade-up">
+            <div class="category-header">
+              <div class="cat-icon icon-yellow"><i class="fa-solid fa-code"></i></div>
+              <h3 class="cat-title">Programming</h3>
+            </div>
+            <p class="cat-summary">Core languages utilized for software development, algorithmic computing, and scripting.</p>
+            <div class="tech-badge-cluster">
+              <span class="tech-pill"><i class="fa-brands fa-python"></i> Python</span>
+              <span class="tech-pill"><i class="fa-brands fa-java"></i> Java</span>
+              <span class="tech-pill"><i class="fa-brands fa-js"></i> JavaScript</span>
+              <span class="tech-pill"><i class="fa-solid fa-file-code"></i> TypeScript</span>
+            </div>
+          </div>
+
+          <!-- 2. Backend -->
+          <div class="skill-category-card" data-category="backend" data-reveal="fade-up">
+            <div class="category-header">
+              <div class="cat-icon icon-emerald"><i class="fa-solid fa-server"></i></div>
+              <h3 class="cat-title">Backend</h3>
+            </div>
+            <p class="cat-summary">Server-side runtime environments, frameworks, and RESTful service engineering.</p>
+            <div class="tech-badge-cluster">
+              <span class="tech-pill"><i class="fa-brands fa-node-js"></i> Node.js</span>
+              <span class="tech-pill"><i class="fa-solid fa-bolt"></i> Express.js</span>
+              <span class="tech-pill"><i class="fa-solid fa-gauge-high"></i> FastAPI</span>
+              <span class="tech-pill"><i class="fa-solid fa-network-wired"></i> REST API Design</span>
+              <span class="tech-pill"><i class="fa-brands fa-java"></i> J2EE</span>
+              <span class="tech-pill"><i class="fa-solid fa-database"></i> SQLAlchemy</span>
+            </div>
+          </div>
+
+          <!-- 3. AI & ML -->
+          <div class="skill-category-card" data-category="ai" data-reveal="fade-up">
+            <div class="category-header">
+              <div class="cat-icon icon-purple"><i class="fa-solid fa-brain"></i></div>
+              <h3 class="cat-title">AI & Machine Learning</h3>
+            </div>
+            <p class="cat-summary">Predictive modeling, explainable AI, natural language processing, and LLM systems.</p>
+            <div class="tech-badge-cluster">
+              <span class="tech-pill"><i class="fa-solid fa-robot"></i> Machine Learning</span>
+              <span class="tech-pill"><i class="fa-solid fa-chart-line"></i> XGBoost</span>
+              <span class="tech-pill"><i class="fa-solid fa-magnifying-glass-chart"></i> SHAP</span>
+              <span class="tech-pill"><i class="fa-solid fa-comments"></i> NLP</span>
+              <span class="tech-pill"><i class="fa-solid fa-microchip"></i> LLM API Integration</span>
+              <span class="tech-pill"><i class="fa-solid fa-layer-group"></i> RAG</span>
+              <span class="tech-pill"><i class="fa-solid fa-square-poll-vertical"></i> Model Evaluation</span>
+            </div>
+          </div>
+
+          <!-- 4. Frontend -->
+          <div class="skill-category-card" data-category="frontend" data-reveal="fade-up">
+            <div class="category-header">
+              <div class="cat-icon icon-cyan"><i class="fa-solid fa-palette"></i></div>
+              <h3 class="cat-title">Frontend</h3>
+            </div>
+            <p class="cat-summary">Modern user interfaces, cross-platform mobile frameworks, and accessible responsive styling.</p>
+            <div class="tech-badge-cluster">
+              <span class="tech-pill"><i class="fa-brands fa-html5"></i> HTML5</span>
+              <span class="tech-pill"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+              <span class="tech-pill"><i class="fa-brands fa-js"></i> JavaScript</span>
+              <span class="tech-pill"><i class="fa-brands fa-react"></i> React</span>
+              <span class="tech-pill"><i class="fa-solid fa-mobile-screen"></i> React Native</span>
+              <span class="tech-pill"><i class="fa-solid fa-wind"></i> Tailwind CSS</span>
+            </div>
+          </div>
+
+          <!-- 5. Databases -->
+          <div class="skill-category-card" data-category="db" data-reveal="fade-up">
+            <div class="category-header">
+              <div class="cat-icon icon-blue"><i class="fa-solid fa-database"></i></div>
+              <h3 class="cat-title">Databases</h3>
+            </div>
+            <p class="cat-summary">Relational schema design, query optimization, graph models, and database management systems.</p>
+            <div class="tech-badge-cluster">
+              <span class="tech-pill"><i class="fa-solid fa-table"></i> SQL</span>
+              <span class="tech-pill"><i class="fa-solid fa-database"></i> MySQL</span>
+              <span class="tech-pill"><i class="fa-solid fa-file-invoice"></i> SQLite</span>
+              <span class="tech-pill"><i class="fa-solid fa-circle-nodes"></i> Neo4j</span>
+              <span class="tech-pill"><i class="fa-solid fa-hard-drive"></i> DBMS</span>
+              <span class="tech-pill"><i class="fa-solid fa-sitemap"></i> Database Design</span>
+            </div>
+          </div>
+
+          <!-- 6. Cloud & DevOps -->
+          <div class="skill-category-card" data-category="cloud" data-reveal="fade-up">
+            <div class="category-header">
+              <div class="cat-icon icon-orange"><i class="fa-solid fa-cloud"></i></div>
+              <h3 class="cat-title">Cloud & DevOps</h3>
+            </div>
+            <p class="cat-summary">Containerization, CI/CD automation, cloud providers, and container orchestration.</p>
+            <div class="tech-badge-cluster">
+              <span class="tech-pill"><i class="fa-brands fa-aws"></i> AWS</span>
+              <span class="tech-pill"><i class="fa-brands fa-docker"></i> Docker</span>
+              <span class="tech-pill"><i class="fa-solid fa-cubes"></i> Docker Compose</span>
+              <span class="tech-pill"><i class="fa-brands fa-github"></i> GitHub Actions</span>
+              <span class="tech-pill"><i class="fa-solid fa-arrows-rotate"></i> CI/CD</span>
+              <span class="tech-pill"><i class="fa-brands fa-google"></i> GCP</span>
+              <span class="tech-pill"><i class="fa-solid fa-dharmachakra"></i> Kubernetes</span>
+            </div>
+          </div>
+
+          <!-- 7. Tools -->
+          <div class="skill-category-card" data-category="tools" data-reveal="fade-up">
+            <div class="category-header">
+              <div class="cat-icon icon-cyan"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+              <h3 class="cat-title">Tools</h3>
+            </div>
+            <p class="cat-summary">Engineering workflow utilities, version control, IDEs, and API testing suites.</p>
+            <div class="tech-badge-cluster">
+              <span class="tech-pill"><i class="fa-brands fa-git-alt"></i> Git</span>
+              <span class="tech-pill"><i class="fa-brands fa-github"></i> GitHub</span>
+              <span class="tech-pill"><i class="fa-solid fa-code"></i> VS Code</span>
+              <span class="tech-pill"><i class="fa-solid fa-book-open"></i> Jupyter Notebook</span>
+              <span class="tech-pill"><i class="fa-solid fa-paper-plane"></i> Postman</span>
+            </div>
+          </div>
+
+          <!-- 8. Core Computer Science -->
+          <div class="skill-category-card" data-category="core" data-reveal="fade-up">
+            <div class="category-header">
+              <div class="cat-icon icon-purple"><i class="fa-solid fa-microchip"></i></div>
+              <h3 class="cat-title">Core Computer Science</h3>
+            </div>
+            <p class="cat-summary">Foundational principles in software engineering, operating environments, and algorithms.</p>
+            <div class="tech-badge-cluster">
+              <span class="tech-pill"><i class="fa-solid fa-network-wired"></i> Data Structures & Algorithms</span>
+              <span class="tech-pill"><i class="fa-solid fa-gears"></i> Operating Systems</span>
+              <span class="tech-pill"><i class="fa-solid fa-diagram-project"></i> Computer Networks</span>
+              <span class="tech-pill"><i class="fa-solid fa-vial-circle-check"></i> Software Engineering</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. EXPERIENCE SECTION
+         ========================================================================== -->
+    <section class="section-padding experience-section" id="experience">
+      <div class="section-container">
+        <div class="section-heading" data-reveal="fade-up">
+          <span class="section-eyebrow"><i class="fa-solid fa-briefcase"></i> CAREER_TIMELINE</span>
+          <h2 class="section-main-title">Experience & <span class="gradient-text">Internships</span></h2>
+          <div class="section-separator-line"></div>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-track-spine"></div>
+
+          <!-- Experience 1 -->
+          <div class="timeline-row-item" data-reveal="fade-up">
+            <div class="timeline-node-icon"><i class="fa-solid fa-industry"></i></div>
+            <div class="timeline-card-body">
+              <div class="timeline-time-badge">May 2026 – June 2026</div>
+              <h3 class="timeline-job-title">IT & ERP Intern</h3>
+              <div class="timeline-company-name"><i class="fa-solid fa-building"></i> RINL Visakhapatnam Steel Plant</div>
+              <ul class="timeline-bullet-list">
+                <li>Contributed to enterprise backend deliverables using full-stack development, J2EE and Web technologies.</li>
+                <li>Investigated ERP workflows and documented enterprise system behavior.</li>
+                <li>Supported technical analysis, records administration and reporting.</li>
+              </ul>
+              <div class="timeline-tech-pills">
+                <span>Full-Stack</span>
+                <span>J2EE</span>
+                <span>Web Technologies</span>
+                <span>ERP Systems</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2 -->
+          <div class="timeline-row-item" data-reveal="fade-up">
+            <div class="timeline-node-icon"><i class="fa-solid fa-chart-pie"></i></div>
+            <div class="timeline-card-body">
+              <div class="timeline-time-badge">May 2025 – June 2025</div>
+              <h3 class="timeline-job-title">Data Science & Data Analysis Intern</h3>
+              <div class="timeline-company-name"><i class="fa-solid fa-university"></i> NIST University</div>
+              <ul class="timeline-bullet-list">
+                <li>Processed, cleaned and validated datasets using Python.</li>
+                <li>Performed exploratory data analysis and visualization.</li>
+                <li>Prepared technical reports and communicated findings.</li>
+              </ul>
+              <div class="timeline-tech-pills">
+                <span>Python</span>
+                <span>Data Analysis</span>
+                <span>Data Cleaning</span>
+                <span>Visualization</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 3 -->
+          <div class="timeline-row-item" data-reveal="fade-up">
+            <div class="timeline-node-icon"><i class="fa-solid fa-code"></i></div>
+            <div class="timeline-card-body">
+              <div class="timeline-time-badge">July 2024 – August 2024</div>
+              <h3 class="timeline-job-title">Advanced Programming & Competitive Coding Intern</h3>
+              <div class="timeline-company-name"><i class="fa-solid fa-laptop-code"></i> NIST University</div>
+              <ul class="timeline-bullet-list">
+                <li>Solved algorithmic problems involving trees, graphs, recursion, linked lists, stacks and hash-based structures.</li>
+              </ul>
+              <div class="timeline-tech-pills">
+                <span>Algorithms</span>
+                <span>Trees & Graphs</span>
+                <span>Recursion</span>
+                <span>Competitive Coding</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 4 -->
+          <div class="timeline-row-item" data-reveal="fade-up">
+            <div class="timeline-node-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="timeline-card-body">
+              <div class="timeline-time-badge">August 2024 – November 2024</div>
+              <h3 class="timeline-job-title">Data Structures & Algorithms Training</h3>
+              <div class="timeline-company-name"><i class="fa-solid fa-chalkboard-user"></i> IT World Education</div>
+              <ul class="timeline-bullet-list">
+                <li>Completed intensive DSA training covering algorithms, trees, graphs, recursion and technical interview problem solving.</li>
+              </ul>
+              <div class="timeline-tech-pills">
+                <span>DSA Mastery</span>
+                <span>Graph Theory</span>
+                <span>Dynamic Programming</span>
+                <span>Interview Prep</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. PROJECTS SECTION
+         ========================================================================== -->
+    <section class="section-padding projects-section" id="projects">
+      <div class="section-container">
+        <div class="section-heading" data-reveal="fade-up">
+          <span class="section-eyebrow"><i class="fa-solid fa-layer-group"></i> PORTFOLIO_SHOWCASE</span>
+          <h2 class="section-main-title">Featured <span class="gradient-text">Projects</span></h2>
+          <div class="section-separator-line"></div>
+        </div>
+
+        <div class="projects-display-grid">
+          <!-- PROJECT 1: MediTwin AI -->
+          <article class="project-3d-card" data-reveal="fade-up">
+            <div class="project-card-banner banner-meditwin">
+              <div class="banner-grid-lines"></div>
+              <span class="project-number-badge">PROJECT 01</span>
+              <div class="banner-center-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+            </div>
+
+            <div class="project-card-content">
+              <div class="project-title-row">
+                <h3 class="project-name">MediTwin AI</h3>
+              </div>
+              <p class="project-subtitle-label">Explainable Clinical Decision Support Platform</p>
+              <p class="project-narrative">
+                Built a clinical decision-support platform using machine learning predictions and SHAP-based explainability. Integrated a RAG-based LLM component. Created a React and TypeScript frontend. Containerized multiple services using Docker Compose and implemented CI/CD using GitHub Actions.
+              </p>
+
+              <div class="project-tech-tags">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>SQLAlchemy</span>
+                <span>XGBoost</span>
+                <span>SHAP</span>
+                <span>React</span>
+                <span>TypeScript</span>
+                <span>Docker Compose</span>
+                <span>GitHub Actions</span>
+                <span>LLM</span>
+                <span>RAG</span>
+              </div>
+
+              <div class="project-action-buttons">
+                <button class="btn-card-action btn-card-placeholder" onclick="showProjectNotice('MediTwin AI')">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
+                </button>
+                <button class="btn-card-action btn-card-github" onclick="showProjectNotice('MediTwin AI')">
+                  <i class="fa-brands fa-github"></i> Repository
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: RINL Material Gate Pass System -->
+          <article class="project-3d-card" data-reveal="fade-up">
+            <div class="project-card-banner banner-rinl">
+              <div class="banner-grid-lines"></div>
+              <span class="project-number-badge">PROJECT 02</span>
+              <div class="banner-center-icon"><i class="fa-solid fa-id-card-clip"></i></div>
+            </div>
+
+            <div class="project-card-content">
+              <div class="project-title-row">
+                <h3 class="project-name">RINL Material Gate Pass System</h3>
+              </div>
+              <p class="project-subtitle-label">Enterprise Access Control & Logistics Tracking</p>
+              <p class="project-narrative">
+                Designed REST API endpoints and relational data models to digitize and track material gate passes. Implemented authentication and role-based access control.
+              </p>
+
+              <div class="project-tech-tags">
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>HTML5</span>
+                <span>Tailwind CSS</span>
+                <span>SQLite</span>
+                <span>Bcrypt</span>
+              </div>
+
+              <div class="project-action-buttons">
+                <button class="btn-card-action btn-card-placeholder" onclick="showProjectNotice('RINL Material Gate Pass System')">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
+                </button>
+                <button class="btn-card-action btn-card-github" onclick="showProjectNotice('RINL Material Gate Pass System')">
+                  <i class="fa-brands fa-github"></i> Repository
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: ATS Resume Checker -->
+          <article class="project-3d-card" data-reveal="fade-up">
+            <div class="project-card-banner banner-ats">
+              <div class="banner-grid-lines"></div>
+              <span class="project-number-badge">PROJECT 03</span>
+              <div class="banner-center-icon"><i class="fa-solid fa-file-circle-check"></i></div>
+            </div>
+
+            <div class="project-card-content">
+              <div class="project-title-row">
+                <h3 class="project-name">ATS Resume Checker</h3>
+              </div>
+              <p class="project-subtitle-label">NLP & LLM-Powered Keyword Matcher</p>
+              <p class="project-narrative">
+                Built an NLP-powered application that analyzes resumes against job descriptions and identifies keyword and skill gaps.
+              </p>
+
+              <div class="project-tech-tags">
+                <span>Python</span>
+                <span>Streamlit</span>
+                <span>NLP</span>
+                <span>LLM API</span>
+              </div>
+
+              <div class="project-action-buttons">
+                <button class="btn-card-action btn-card-placeholder" onclick="showProjectNotice('ATS Resume Checker')">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
+                </button>
+                <button class="btn-card-action btn-card-github" onclick="showProjectNotice('ATS Resume Checker')">
+                  <i class="fa-brands fa-github"></i> Repository
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 4: INTERACT -->
+          <article class="project-3d-card" data-reveal="fade-up">
+            <div class="project-card-banner banner-interact">
+              <div class="banner-grid-lines"></div>
+              <span class="project-number-badge">PROJECT 04</span>
+              <div class="banner-center-icon"><i class="fa-solid fa-users"></i></div>
+            </div>
+
+            <div class="project-card-content">
+              <div class="project-title-row">
+                <h3 class="project-name">INTERACT</h3>
+              </div>
+              <p class="project-subtitle-label">Cross-Platform Social Media Application</p>
+              <p class="project-narrative">
+                Developed a cross-platform social media application with profiles, feeds and user interactions.
+              </p>
+
+              <div class="project-tech-tags">
+                <span>React Native</span>
+                <span>AWS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <div class="project-action-buttons">
+                <button class="btn-card-action btn-card-placeholder" onclick="showProjectNotice('INTERACT')">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
+                </button>
+                <button class="btn-card-action btn-card-github" onclick="showProjectNotice('INTERACT')">
+                  <i class="fa-brands fa-github"></i> Repository
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 5: Menstruation Tracker -->
+          <article class="project-3d-card" data-reveal="fade-up">
+            <div class="project-card-banner banner-tracker">
+              <div class="banner-grid-lines"></div>
+              <span class="project-number-badge">PROJECT 05</span>
+              <div class="banner-center-icon"><i class="fa-solid fa-calendar-check"></i></div>
+            </div>
+
+            <div class="project-card-content">
+              <div class="project-title-row">
+                <h3 class="project-name">Menstruation Tracker</h3>
+              </div>
+              <p class="project-subtitle-label">Privacy-First Health Database & Mobile App</p>
+              <p class="project-narrative">
+                Designed a privacy-focused database system and mobile health tracking application.
+              </p>
+
+              <div class="project-tech-tags">
+                <span>Python</span>
+                <span>SQLite</span>
+                <span>MySQL</span>
+                <span>React Native</span>
+              </div>
+
+              <div class="project-action-buttons">
+                <button class="btn-card-action btn-card-placeholder" onclick="showProjectNotice('Menstruation Tracker')">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
+                </button>
+                <button class="btn-card-action btn-card-github" onclick="showProjectNotice('Menstruation Tracker')">
+                  <i class="fa-brands fa-github"></i> Repository
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. EDUCATION SECTION
+         ========================================================================== -->
+    <section class="section-padding education-section" id="education">
+      <div class="section-container">
+        <div class="section-heading" data-reveal="fade-up">
+          <span class="section-eyebrow"><i class="fa-solid fa-graduation-cap"></i> ACADEMIC_CREDENTIALS</span>
+          <h2 class="section-main-title">Education <span class="gradient-text">Background</span></h2>
+          <div class="section-separator-line"></div>
+        </div>
+
+        <div class="education-card-wrapper" data-reveal="fade-up">
+          <!-- 1. B.Tech in Computer Science and Technology (CST) -->
+          <div class="education-card">
+            <div class="card-accent-top"></div>
+            <div class="education-main-info">
+              <div class="edu-crest-icon"><i class="fa-solid fa-building-columns"></i></div>
+              <div class="edu-title-block">
+                <div class="edu-degree-row">
+                  <h3 class="edu-degree">B.Tech in Computer Science and Technology (CST)</h3>
+                  <span class="edu-year-badge">Expected Graduation: 2027</span>
+                </div>
+                <h4 class="edu-institution"><i class="fa-solid fa-university"></i> NIST University, Berhampur</h4>
+                <div class="edu-score-pill">
+                  <span class="score-label">CGPA:</span>
+                  <span class="score-value">7.9 / 10</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="edu-coursework-section">
+              <h5 class="coursework-heading"><i class="fa-solid fa-book-bookmark"></i> Relevant Coursework:</h5>
+              <div class="coursework-tags-grid">
+                <span class="course-tag"><i class="fa-solid fa-code-branch"></i> Data Structures &amp; Algorithms</span>
+                <span class="course-tag"><i class="fa-solid fa-database"></i> Database Management Systems (DBMS)</span>
+                <span class="course-tag"><i class="fa-solid fa-microchip"></i> Operating Systems</span>
+                <span class="course-tag"><i class="fa-solid fa-network-wired"></i> Computer Networks</span>
+                <span class="course-tag"><i class="fa-solid fa-vial-circle-check"></i> Software Engineering</span>
+                <span class="course-tag"><i class="fa-solid fa-cube"></i> Object-Oriented Programming (OOP)</span>
+                <span class="course-tag"><i class="fa-solid fa-robot"></i> Artificial Intelligence</span>
+                <span class="course-tag"><i class="fa-solid fa-brain"></i> Machine Learning</span>
+                <span class="course-tag"><i class="fa-solid fa-comments"></i> Natural Language Processing (NLP)</span>
+                <span class="course-tag"><i class="fa-solid fa-layer-group"></i> Full Stack Web Architecture</span>
+                <span class="course-tag"><i class="fa-solid fa-cloud"></i> Cloud Computing &amp; DevOps</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Higher Secondary Education (Class XII) -->
+          <div class="education-card">
+            <div class="card-accent-top"></div>
+            <div class="education-main-info">
+              <div class="edu-crest-icon icon-purple"><i class="fa-solid fa-school"></i></div>
+              <div class="edu-title-block">
+                <div class="edu-degree-row">
+                  <h3 class="edu-degree">Higher Secondary Education (Class XII)</h3>
+                  <span class="edu-year-badge">Year of Passing: 2023</span>
+                </div>
+                <h4 class="edu-institution"><i class="fa-solid fa-school-flag"></i> Saraswati Vidya Mandir Higher Secondary School, Neelakantha Nagar</h4>
+                <div class="edu-stream-pill">
+                  <span class="stream-label"><i class="fa-solid fa-atom"></i> Stream:</span>
+                  <span class="stream-value">Science (PCMB)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="edu-coursework-section">
+              <h5 class="coursework-heading"><i class="fa-solid fa-flask-vial"></i> Core Subjects:</h5>
+              <div class="coursework-tags-grid">
+                <span class="course-tag"><i class="fa-solid fa-atom"></i> Physics</span>
+                <span class="course-tag"><i class="fa-solid fa-flask"></i> Chemistry</span>
+                <span class="course-tag"><i class="fa-solid fa-calculator"></i> Mathematics</span>
+                <span class="course-tag"><i class="fa-solid fa-dna"></i> Biology</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Secondary Education (Class X) -->
+          <div class="education-card">
+            <div class="card-accent-top"></div>
+            <div class="education-main-info">
+              <div class="edu-crest-icon icon-blue"><i class="fa-solid fa-book-open-reader"></i></div>
+              <div class="edu-title-block">
+                <div class="edu-degree-row">
+                  <h3 class="edu-degree">Secondary Education (Class X)</h3>
+                  <span class="edu-year-badge">Year of Passing: 2021</span>
+                </div>
+                <h4 class="edu-institution"><i class="fa-solid fa-school-flag"></i> Saraswati Sishu Vidya Mandir, Neelakantha Nagar</h4>
+              </div>
+            </div>
+
+            <div class="edu-coursework-section">
+              <h5 class="coursework-heading"><i class="fa-solid fa-compass-drafting"></i> Academic Foundation:</h5>
+              <div class="coursework-tags-grid">
+                <span class="course-tag"><i class="fa-solid fa-square-root-variable"></i> Mathematics</span>
+                <span class="course-tag"><i class="fa-solid fa-microscope"></i> Science</span>
+                <span class="course-tag"><i class="fa-solid fa-spell-check"></i> English</span>
+                <span class="course-tag"><i class="fa-solid fa-earth-americas"></i> Social Science</span>
+                <span class="course-tag"><i class="fa-solid fa-book-bookmark"></i> General Studies</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         8. CERTIFICATIONS SECTION
+         ========================================================================== -->
+    <section class="section-padding certifications-section" id="certifications">
+      <div class="section-container">
+        <div class="section-heading" data-reveal="fade-up">
+          <span class="section-eyebrow"><i class="fa-solid fa-certificate"></i> VERIFIED_CREDENTIALS</span>
+          <h2 class="section-main-title">Certifications & <span class="gradient-text">Simulations</span></h2>
+          <div class="section-separator-line"></div>
+        </div>
+
+        <div class="certifications-grid">
+          <!-- Cert 1 -->
+          <div class="cert-card" data-reveal="fade-up">
+            <div class="cert-icon-box icon-orange"><i class="fa-brands fa-aws"></i></div>
+            <div class="cert-body">
+              <h4 class="cert-name">AWS Solutions Architecture Job Simulation</h4>
+              <span class="cert-issuer">Forage / AWS</span>
+            </div>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card" data-reveal="fade-up">
+            <div class="cert-icon-box icon-yellow"><i class="fa-brands fa-java"></i></div>
+            <div class="cert-body">
+              <h4 class="cert-name">Java Certification</h4>
+              <span class="cert-issuer">Professional Program</span>
+            </div>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card" data-reveal="fade-up">
+            <div class="cert-icon-box icon-purple"><i class="fa-solid fa-robot"></i></div>
+            <div class="cert-body">
+              <h4 class="cert-name">AI Engineer Certification</h4>
+              <span class="cert-issuer">Professional Certification</span>
+            </div>
+          </div>
+
+          <!-- Cert 4 -->
+          <div class="cert-card" data-reveal="fade-up">
+            <div class="cert-icon-box icon-cyan"><i class="fa-solid fa-chart-line"></i></div>
+            <div class="cert-body">
+              <h4 class="cert-name">AI and Data Scientist Certification</h4>
+              <span class="cert-issuer">Professional Certification</span>
+            </div>
+          </div>
+
+          <!-- Cert 5 -->
+          <div class="cert-card" data-reveal="fade-up">
+            <div class="cert-icon-box icon-blue"><i class="fa-solid fa-circle-nodes"></i></div>
+            <div class="cert-body">
+              <h4 class="cert-name">Neo4j Certified Professional</h4>
+              <span class="cert-issuer">Neo4j Graph Academy</span>
+            </div>
+          </div>
+
+          <!-- Cert 6 -->
+          <div class="cert-card" data-reveal="fade-up">
+            <div class="cert-icon-box icon-emerald"><i class="fa-solid fa-gamepad"></i></div>
+            <div class="cert-body">
+              <h4 class="cert-name">Software Engineering Job Simulation</h4>
+              <span class="cert-issuer">Electronic Arts</span>
+            </div>
+          </div>
+
+          <!-- Cert 7 -->
+          <div class="cert-card" data-reveal="fade-up">
+            <div class="cert-icon-box icon-purple"><i class="fa-solid fa-brain"></i></div>
+            <div class="cert-body">
+              <h4 class="cert-name">GenAI Job Simulation</h4>
+              <span class="cert-issuer">Boston Consulting Group</span>
+            </div>
+          </div>
+
+          <!-- Cert 8 -->
+          <div class="cert-card" data-reveal="fade-up">
+            <div class="cert-icon-box icon-blue"><i class="fa-solid fa-diagram-project"></i></div>
+            <div class="cert-body">
+              <h4 class="cert-name">GenAI-Powered Data Analytics Job Simulation</h4>
+              <span class="cert-issuer">Tata</span>
+            </div>
+          </div>
+
+          <!-- Cert 9 -->
+          <div class="cert-card" data-reveal="fade-up">
+            <div class="cert-icon-box icon-green"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+            <div class="cert-body">
+              <h4 class="cert-name">Data Analytics Job Simulation</h4>
+              <span class="cert-issuer">Deloitte</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         9. RESUME SECTION
+         ========================================================================== -->
+    <section class="section-padding resume-showcase-section" id="resume">
+      <div class="section-container">
+        <div class="section-heading" data-reveal="fade-up">
+          <span class="section-eyebrow"><i class="fa-solid fa-file-invoice"></i> DOCUMENTATION</span>
+          <h2 class="section-main-title">Curriculum <span class="gradient-text">Vitae</span></h2>
+          <div class="section-separator-line"></div>
+        </div>
+
+        <div class="resume-feature-card" data-reveal="fade-up">
+          <div class="resume-card-glow"></div>
+          <div class="resume-card-content">
+            <div class="resume-doc-icon"><i class="fa-solid fa-file-pdf"></i></div>
+            <div class="resume-details-text">
+              <h3 class="resume-card-title">Ashirbad Pattnaik - Professional Resume</h3>
+              <p class="resume-card-desc">
+                Review verified educational milestones, software internships at RINL & NIST, technical capabilities, and project portfolio.
+              </p>
+              <div class="resume-meta-tags">
+                <span><i class="fa-solid fa-circle-check"></i> Verified Credentials</span>
+                <span><i class="fa-solid fa-circle-check"></i> Ready for Immediate Review</span>
+                <span><i class="fa-solid fa-circle-check"></i> PDF Document</span>
+              </div>
+            </div>
+            <div class="resume-action-buttons">
+              <a href="resume.pdf" class="btn btn-outline" target="_blank">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span>View Resume</span>
+              </a>
+              <a href="resume.pdf" class="btn btn-primary" download="Ashirbad_Pattnaik_Resume.pdf">
+                <i class="fa-solid fa-download"></i>
+                <span>Download Resume</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         10. CONTACT SECTION
+         ========================================================================== -->
+    <section class="section-padding contact-section" id="contact">
+      <div class="section-container">
+        <div class="section-heading" data-reveal="fade-up">
+          <span class="section-eyebrow"><i class="fa-solid fa-satellite-dish"></i> TRANSMISSION_LINK</span>
+          <h2 class="section-main-title">Get In <span class="gradient-text">Touch</span></h2>
+          <div class="section-separator-line"></div>
+        </div>
+
+        <div class="contact-layout-grid">
+          <!-- Left Column: Direct Coordinates -->
+          <div class="contact-info-column" data-reveal="fade-up">
+            <h3 class="contact-callout-heading">
+              Let's connect and discuss software engineering opportunities.
+            </h3>
+            <p class="contact-callout-desc">
+              Whether you have an internship, full-time position, technical inquiry, or potential collaboration, feel free to reach out directly through email, phone, or WhatsApp.
+            </p>
+
+            <div class="direct-contact-cards">
+              <!-- Email Card -->
+              <div class="contact-card-item">
+                <div class="card-item-icon icon-cyan"><i class="fa-solid fa-envelope"></i></div>
+                <div class="card-item-info">
+                  <span class="card-item-label">Email Address</span>
+                  <a href="mailto:Pattnaikashirbad4@gmail.com" class="card-item-value" id="copy-email-text">Pattnaikashirbad4@gmail.com</a>
+                </div>
+                <button class="card-item-action-btn" id="copy-email-btn" title="Copy Email" aria-label="Copy Email Address">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- Phone Card -->
+              <div class="contact-card-item">
+                <div class="card-item-icon icon-emerald"><i class="fa-solid fa-phone"></i></div>
+                <div class="card-item-info">
+                  <span class="card-item-label">Telephone</span>
+                  <a href="tel:+919692502975" class="card-item-value">+91 9692502975</a>
+                </div>
+                <a href="tel:+919692502975" class="card-item-action-btn" title="Call Now" aria-label="Call Phone Number">
+                  <i class="fa-solid fa-phone-volume"></i>
+                </a>
+              </div>
+
+              <!-- Location Card -->
+              <div class="contact-card-item">
+                <div class="card-item-icon icon-purple"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="card-item-info">
+                  <span class="card-item-label">Location</span>
+                  <span class="card-item-value">Berhampur, Odisha, India</span>
+                </div>
+              </div>
+
+              <!-- WhatsApp Action Banner -->
+              <div class="whatsapp-prompt-box">
+                <div class="wa-box-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="wa-box-text">
+                  <strong>Instant Direct Chat</strong>
+                  <span>Message directly on WhatsApp for prompt correspondence.</span>
+                </div>
+                <a href="https://wa.me/919692502975" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-whatsapp"></i> Chat Now
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Contact Form -->
+          <div class="contact-form-column" data-reveal="fade-up">
+            <form id="contact-form" class="futuristic-contact-form" novalidate>
+              <div class="form-header-row">
+                <span class="form-channel-badge"><i class="fa-solid fa-shield-halved"></i> SECURE_MESSAGE</span>
+                <h4 class="form-title">Send a Message</h4>
+              </div>
+
+              <div class="form-group-field">
+                <label for="form-name" class="field-label">Name</label>
+                <div class="field-input-box">
+                  <i class="fa-solid fa-user field-icon"></i>
+                  <input type="text" id="form-name" class="field-input" placeholder="Your Name" required>
+                </div>
+                <span class="field-error-msg" id="name-error">Please enter your name</span>
+              </div>
+
+              <div class="form-group-field">
+                <label for="form-email" class="field-label">Email</label>
+                <div class="field-input-box">
+                  <i class="fa-solid fa-at field-icon"></i>
+                  <input type="email" id="form-email" class="field-input" placeholder="Your Email Address" required>
+                </div>
+                <span class="field-error-msg" id="email-error">Please enter a valid email address</span>
+              </div>
+
+              <div class="form-group-field">
+                <label for="form-subject" class="field-label">Subject</label>
+                <div class="field-input-box">
+                  <i class="fa-solid fa-tag field-icon"></i>
+                  <input type="text" id="form-subject" class="field-input" placeholder="Subject / Inquiring Opportunity" required>
+                </div>
+                <span class="field-error-msg" id="subject-error">Please enter a subject</span>
+              </div>
+
+              <div class="form-group-field">
+                <label for="form-message" class="field-label">Message</label>
+                <div class="field-input-box textarea-box">
+                  <i class="fa-solid fa-message field-icon textarea-icon"></i>
+                  <textarea id="form-message" class="field-input field-textarea" rows="4" placeholder="Write your message here..." required></textarea>
+                </div>
+                <span class="field-error-msg" id="message-error">Please provide a message (at least 10 characters)</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span class="btn-text">Send Message</span>
+                <div class="btn-spinner" aria-hidden="true"></div>
+              </button>
+
+              <!-- Form Status Notice -->
+              <div class="form-notification-box" id="form-notification" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       11. FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="section-container footer-content-grid">
+      <div class="footer-brand-column">
+        <a href="#hero" class="nav-brand">
+          <span class="brand-bracket">&lt;</span>
+          <span class="brand-initials">Ashirbad Pattnaik</span>
+          <span class="brand-bracket">/&gt;</span>
+        </a>
+        <p class="footer-description">
+          B.Tech in Computer Science and Technology (CST) Student, Full Stack Developer, and AI/ML Enthusiast building intelligent web systems and scalable applications.
+        </p>
+      </div>
+
+      <div class="footer-nav-column">
+        <h5 class="footer-col-title">Quick Links</h5>
+        <ul class="footer-links-list">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social-column">
+        <h5 class="footer-col-title">Connect Directly</h5>
+        <div class="footer-social-icons">
+          <a href="https://github.com/ashirbad003" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/ashirbad003/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://leetcode.com/u/ashirbad003/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LeetCode">
+            <i class="fa-solid fa-code"></i>
+          </a>
+          <a href="https://www.instagram.com/ashirbad__003" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/919692502975" target="_blank" rel="noopener noreferrer" class="social-icon-btn btn-social-wa" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+        <p class="footer-location-text">
+          <i class="fa-solid fa-location-dot"></i> Berhampur, Odisha, India
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-bottom-strap">
+      <div class="section-container footer-bottom-flex">
+        <p class="copyright-statement">
+          &copy; 2026 Ashirbad Pattnaik. All Rights Reserved.
+        </p>
+        <div class="system-status-indicator">
+          <span class="status-green-dot"></span>
+          <span>SYSTEMS_OPERATIONAL</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <a href="#hero" class="back-to-top-btn" id="back-to-top" aria-label="Back to Top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </a>
+
+  <!-- Project Notice Modal / Toast Dialog -->
+  <div id="project-notice-modal" class="cyber-modal" aria-hidden="true">
+    <div class="cyber-modal-dialog">
+      <div class="modal-corner corner-tl"></div>
+      <div class="modal-corner corner-tr"></div>
+      <div class="modal-corner corner-bl"></div>
+      <div class="modal-corner corner-br"></div>
+      <div class="modal-header">
+        <span class="modal-badge"><i class="fa-solid fa-shield-cat"></i> REPOSITORY_STATUS</span>
+        <button class="modal-close-btn" id="modal-close-btn" aria-label="Close dialog">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4 id="modal-project-title" class="modal-title">Project Notice</h4>
+        <p id="modal-project-msg" class="modal-text">
+          This project was developed as part of enterprise deliverables and internal research. Code repositories and live demos are available upon formal request or NDA clearance.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#contact" class="btn btn-primary btn-sm" id="modal-contact-link">Inquire Directly</a>
+        <button class="btn btn-outline btn-sm" id="modal-ok-btn">Acknowledge</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
